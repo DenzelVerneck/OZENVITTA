@@ -3,6 +3,12 @@
 
 <head>
 	<meta charset="UTF-8">
+
+	<!-- Security Headers (Fallback via Meta) -->
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https: data:;">
+	<meta http-equiv="X-Content-Type-Options" content="nosniff">
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+	<meta name="referrer" content="strict-origin-when-cross-origin">
 	<style id="litespeed-ccss">
 		:root {
 			--wp--preset--aspect-ratio--square: 1;
